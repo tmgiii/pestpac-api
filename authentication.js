@@ -63,7 +63,7 @@ module.exports = {
     }
   ],
   
-  // This section contails the Session configuration details.
+  // This section contains the Session configuration details.
   sessionConfig: {
     perform: {
       body: {
@@ -82,5 +82,5 @@ module.exports = {
     }
   },
   type: 'session',
-  connectionLabel: '{{bundle.authData.tenant_id}}'
+  connectionLabel: 'PestPac Company Key: {{bundle.authData.tenant_id}}'
 };
